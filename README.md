@@ -76,9 +76,9 @@ jupyter notebook notebooks/titanic_survival_prediction.ipynb
 
 | Модель | ROC-AUC (test) | Accuracy (test) | Kaggle score |
 |---|---|---|---|
-| SVC | 0.8747 | — | 0.76794 |
-| Random Forest | — | 0.8492 | 0.77511 |
-| Voting Ensemble (RF + DT) | — | — | 0.76555 |
+| SVC | 0.8747 | 0.8747 | 0.76794 |
+| Random Forest | 0.8492 | 0.8492 | 0.77511 |
+| Voting Ensemble (RF + DT) | 0.7345 | 0.7455 | 0.76555 |
 
 Ключевые выводы:
 - Лучшая модель по ROC-AUC — **SVC**; по accuracy на отложенной выборке — **Random Forest**.
